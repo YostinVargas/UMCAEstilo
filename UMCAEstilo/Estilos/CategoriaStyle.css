@@ -1,2 +1,65 @@
 ﻿body {
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-largo {
+    display: block;
+    width: 80%;
+    padding: 6px;
+}
+
+.titulo-formulario {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    margin-top: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.tabla {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.tabla tr:hover {
+    background-color: #f1f7f1;
 }
